@@ -1,0 +1,118 @@
+#include <iostream>
+#include <string>
+using namespace std;
+string numbertotext(int num) {
+    if (num < 1 || num > 99) {
+        return "Number out of range.";
+    }
+    if (num == 1) return "One";
+    if (num == 2) return "Two";
+    if (num == 3) return "Three";
+    if (num == 4) return "Four";
+    if (num == 5) return "Five";
+    if (num == 6) return "Six";
+    if (num == 7) return "Seven";
+    if (num == 8) return "Eight";
+    if (num == 9) return "Nine";
+    if (num == 10) return "Ten";
+    if (num == 11) return "Eleven";
+    if (num == 12) return "Twelve";
+    if (num == 13) return "Thirteen";
+    if (num == 14) return "Fourteen";
+    if (num == 15) return "Fifteen";
+    if (num == 16) return "Sixteen";
+    if (num == 17) return "Seventeen";
+    if (num == 18) return "Eighteen";
+    if (num == 19) return "Nineteen";
+    if (num == 20) return "Twenty";
+    if (num == 21) return "Twenty One";
+    if (num == 22) return "Twenty Two";
+    if (num == 23) return "Twenty Three";
+    if (num == 24) return "Twenty Four";
+    if (num == 25) return "Twenty Five";
+    if (num == 26) return "Twenty Six";
+    if (num == 27) return "Twenty Seven";
+    if (num == 28) return "Twenty Eight";
+    if (num == 29) return "Twenty Nine";
+    if (num == 30) return "Thirty";
+    if (num == 31) return "Thirty One";
+    if (num == 32) return "Thirty Two";
+    if (num == 33) return "Thirty Three";
+    if (num == 34) return "Thirty Four";
+    if (num == 35) return "Thirty Five";
+    if (num == 36) return "Thirty Six";
+    if (num == 37) return "Thirty Seven";
+    if (num == 38) return "Thirty Eight";
+    if (num == 39) return "Thirty Nine";
+    if (num == 40) return "Forty";
+    if (num == 41) return "Forty One";
+    if (num == 42) return "Forty Two";
+    if (num == 43) return "Forty Three";
+    if (num == 44) return "Forty Four";
+    if (num == 45) return "Forty Five";
+    if (num == 46) return "Forty Six";
+    if (num == 47) return "Forty Seven";
+    if (num == 48) return "Forty Eight";
+    if (num == 49) return "Forty Nine";
+    if (num == 50) return "Fifty";
+    if (num == 51) return "Fifty One";
+    if (num == 52) return "Fifty Two";
+    if (num == 53) return "Fifty Three";
+    if (num == 54) return "Fifty Four";
+    if (num == 55) return "Fifty Five";
+    if (num == 56) return "Fifty Six";
+    if (num == 57) return "Fifty Seven";
+    if (num == 58) return "Fifty Eight";
+    if (num == 59) return "Fifty Nine";
+    if (num == 60) return "Sixty";
+    if (num == 61) return "Sixty One";
+    if (num == 62) return "Sixty Two";
+    if (num == 63) return "Sixty Three";
+    if (num == 64) return "Sixty Four";
+    if (num == 65) return "Sixty Five";
+    if (num == 66) return "Sixty Six";
+    if (num == 67) return "Sixty Seven";
+    if (num == 68) return "Sixty Eight";
+    if (num == 69) return "Sixty Nine";
+    if (num == 70) return "Seventy";
+    if (num == 71) return "Seventy One";
+    if (num == 72) return "Seventy Two";
+    if (num == 73) return "Seventy Three";
+    if (num == 74) return "Seventy Four";
+    if (num == 75) return "Seventy Five";
+    if (num == 76) return "Seventy Six";
+    if (num == 77) return "Seventy Seven";
+    if (num == 78) return "Seventy Eight";
+    if (num == 79) return "Seventy Nine";
+    if (num == 80) return "Eighty";
+    if (num == 81) return "Eighty One";
+    if (num == 82) return "Eighty Two";
+    if (num == 83) return "Eighty Three";
+    if (num == 84) return "Eighty Four";
+    if (num == 85) return "Eighty Five";
+    if (num == 86) return "Eighty Six";
+    if (num == 87) return "Eighty Seven";
+    if (num == 88) return "Eighty Eight";
+    if (num == 89) return "Eighty Nine";
+    if (num == 90) return "Ninety";
+    if (num == 91) return "Ninety One";
+    if (num == 92) return "Ninety Two";
+    if (num == 93) return "Ninety Three";
+    if (num == 94) return "Ninety Four";
+    if (num == 95) return "Ninety Five";
+    if (num == 96) return "Ninety Six";
+    if (num == 97) return "Ninety Seven";
+    if (num == 98) return "Ninety Eight";
+    if (num == 99) return "Ninety Nine";
+    return ""; 
+}
+
+int main() {
+    int num;
+    cout << "Enter a number (1-99): ";
+    cin >> num;
+    string result = numbertotext(num);
+    cout << "The number in text is: " << result << endl;
+
+    return 0;
+}
