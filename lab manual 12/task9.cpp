@@ -12,10 +12,10 @@ void displayworld() {
     }
     cout<<endl;
 }
-void setgravtatus(bool status){
+void setgravstatus(bool status){
     gravity=status;
 }
-void setblholeStatus(bool status){
+void setblholestatus(bool status){
     isblackhole=status;
 }
 void timeTick(int times){
@@ -52,7 +52,7 @@ int main() {
     cout<<"Initial World:"<<endl;
     displayworld();
     setgravstatus(true);
-    setblholeStatus(true);
+    setblholestatus(true);
     timeTick(3);
     cout<<"After three Gravity Ticks with Black Hole:"<<endl;
     displayworld();
