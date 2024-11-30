@@ -27,7 +27,7 @@ void timeTick(int times){
                     obj[r][c]='#';
                     obj[r-1][c]='-';
                 }
-                else if(isblackhole&&r==4&&objects[r][c]=='#'){
+                else if(isblackhole&&r==4&&obj[r][c]=='#'){
                     obj[r][c]='-';
                     obj[0][c]='#';
                 }
@@ -51,7 +51,7 @@ int main() {
     }
     cout<<"Initial World:"<<endl;
     displayworld();
-    setgravStatus(true);
+    setgravstatus(true);
     setblholeStatus(true);
     timeTick(3);
     cout<<"After three Gravity Ticks with Black Hole:"<<endl;
